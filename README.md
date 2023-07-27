@@ -1,46 +1,43 @@
-# Getting Started with Create React App
+<h1 align="center"> Testando Sorteador Amigo Secreto </h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## :pencil: Descrição do Projeto
+A página da web do Sorteador de Amigo Secreto foi desenvolvida ao longo do curso de <b>React: Testando seus componentes</b> da Alura para a trilha Fullstack - Programa Desenvolve Boticário 2023, por meio do conceito de TDD: Test Driven Development (Desenvolvimento orientado a testes).
+   <br>
 
-## Available Scripts
+## :pushpin: Status do Projeto
+<p>Projeto Finalizado :white_check_mark:</p>
 
-In the project directory, you can run:
 
-### `npm start`
+## :hammer: Funcionalidades do projeto
+A aplicação foi desenvolvida a partir de um design pré-definido, focando-se sobretudo em refatorações de código e no desenvolvimento dos testes. <br> Alguns dos pontos trabalhados ao longo do projeto foram a criação de hooks para encapsulamento dos estados dos componentes, execução de código assíncrono, utilização de temporizadores nos testes com Jest, preparação de mocks dos hooks customizados, realização de testes de snapshot.
+<br><br> Os seguintes testes foram implementados na aplicação: 
+- Formulário:
+  - Garantir que a página esteja sendo renderizada corretamente
+  - Validar se quando um input está vazio, novos participantes não podem ser adicionados
+  - Validar a adição de um participante à lista caso exista um nome preenchido
+  - Garantir que nomes duplicados não podem ser adicionados na lista
+  - Validar se a mensagem de erro some após os timers
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- Sorteio:
+  - Testar se todos os participantes podem exibir o seu amigo secreto
+  - Testar se o amigo secreto é exibido quando solicitado
+  - Garantir que o sorteio não seja realizado caso o número de participantes seja insuficente
+  - Garantir que o sorteio seja realizado caso o número de participantes seja suficente
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## :ballot_box_with_check: Tecnologias utilizadas no projeto
 
-### `npm test`
+As seguintes ferramentas foram usadas na construção do projeto:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+- React
+- TypeScript 
 
-### `npm run build`
+## Autores
+<a href="https://github.com/barbaramir">
+ <img style="border-radius: 50%;" src="https://avatars.githubusercontent.com/u/101302079?s=400&u=d13ec9e6994cd183223e15caeb5599afe49b9093&v=4" width="100px;" alt=""/>
+ <br/>
+   <p>Bárbara Mirelli</p>
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   <p>Feito com ❤️ por Bárbara Mirelli 👋🏽 Entre em contato!</p>
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+[![Linkedin Badge](https://img.shields.io/badge/-Barbara-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/barbara-mirelli/)](https://www.linkedin.com/in/barbara-mirelli/) 
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
